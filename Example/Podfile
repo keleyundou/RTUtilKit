@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RTUtilKit_Tests' do
+  pod 'RTUtilKit', :path => '../'
+  
+  
+end
