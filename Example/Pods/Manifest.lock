@@ -1,0 +1,16 @@
+PODS:
+  - RTUtilKit (0.1.0)
+
+DEPENDENCIES:
+  - RTUtilKit (from `../`)
+
+EXTERNAL SOURCES:
+  RTUtilKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTUtilKit: e188a1da466c57c597d31e6bafbba5e0cba8a5ef
+
+PODFILE CHECKSUM: cba6f72cb1ca761247ea028fdc91de1dc51604fb
+
+COCOAPODS: 1.2.0

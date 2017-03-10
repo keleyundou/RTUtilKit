@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5913E4B13BB43DEDE958AD6E743754ED /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7561F243B495D63668453BDB7C461FE1 /* ReplaceMe.m */; };
+		65B3FD6F5EA384DB85F6554430A834AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		72AE8B16882811B0FA1D2E2303F4B956 /* Pods-RTUtilKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3572A287654CE880A06549F1BCF344 /* Pods-RTUtilKit_Tests-dummy.m */; };
+		CB33AE99AEF11BF8B3B3E66B37AC772D /* RTUtilKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A18FB697F8845FF50F06E55F8007E60 /* RTUtilKit-dummy.m */; };
+		CC738882D4DABC42C832AF25DEFE74A8 /* RTUtilKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432A79014D7DCDF434662A48C9855824 /* RTUtilKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F189AC25408C264A5A5D4FF9BE4389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F9FADCCDBFC02DB3E0825DC28613B49E /* Pods-RTUtilKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5189A1CEE87C6DE1A8AFB8367FC6E0 /* Pods-RTUtilKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C0D4E0F9F70BB61CCCC00639212E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F327CC7295095B0B86E83244F3EA565;
+			remoteInfo = RTUtilKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1542CD366288108EAFC158A299C19B66 /* Pods-RTUtilKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTUtilKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BD5940E3D5318341FA06AF0E70C7D66 /* RTUtilKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTUtilKit-prefix.pch"; sourceTree = "<group>"; };
+		2FF6B5311DF0779073C3B348DD2BEFB4 /* Pods-RTUtilKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTUtilKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		3A18FB697F8845FF50F06E55F8007E60 /* RTUtilKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTUtilKit-dummy.m"; sourceTree = "<group>"; };
+		432A79014D7DCDF434662A48C9855824 /* RTUtilKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTUtilKit-umbrella.h"; sourceTree = "<group>"; };
+		486365D5F134336F23006EFAC5C30D86 /* RTUtilKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTUtilKit.xcconfig; sourceTree = "<group>"; };
+		4975D250B053EBF5FEDDF4AFA3614CB3 /* RTUtilKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RTUtilKit.modulemap; sourceTree = "<group>"; };
+		4DA78209F93E1E5327C361A44AD683FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5189A1CEE87C6DE1A8AFB8367FC6E0 /* Pods-RTUtilKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTUtilKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62B24D4F600089DFA1CDC8672C895FE6 /* RTUtilKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTUtilKit.framework; path = RTUtilKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A664648F1325B47F00D7B47AA672DE7 /* Pods_RTUtilKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTUtilKit_Tests.framework; path = "Pods-RTUtilKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3572A287654CE880A06549F1BCF344 /* Pods-RTUtilKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTUtilKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		7561F243B495D63668453BDB7C461FE1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7E7F3CCE46ED645AC5B5F0662FA019C8 /* Pods-RTUtilKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTUtilKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A677D35F0A8FFEDBED4E643DBE1EC210 /* Pods-RTUtilKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RTUtilKit_Tests.modulemap"; sourceTree = "<group>"; };
+		AF09EAC806CCEC00BAE2E17935E712FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD4BDFC3ECB1BC5C06F854E2C848C639 /* Pods-RTUtilKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTUtilKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F26099ED8A37010929D4AD91D84D26 /* Pods-RTUtilKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTUtilKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3B10247DB74F789F751CE99F77E4DE1 /* Pods-RTUtilKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTUtilKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DDF5BF10D9304FE69B63FDDCCC37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B3FD6F5EA384DB85F6554430A834AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4C4998BD0CCE830760B2167E3CAEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F189AC25408C264A5A5D4FF9BE4389 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0904C7B4F544632E9C4F15D42141AB08 /* Pods-RTUtilKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF09EAC806CCEC00BAE2E17935E712FB /* Info.plist */,
+				A677D35F0A8FFEDBED4E643DBE1EC210 /* Pods-RTUtilKit_Tests.modulemap */,
+				1542CD366288108EAFC158A299C19B66 /* Pods-RTUtilKit_Tests-acknowledgements.markdown */,
+				E5F26099ED8A37010929D4AD91D84D26 /* Pods-RTUtilKit_Tests-acknowledgements.plist */,
+				6E3572A287654CE880A06549F1BCF344 /* Pods-RTUtilKit_Tests-dummy.m */,
+				7E7F3CCE46ED645AC5B5F0662FA019C8 /* Pods-RTUtilKit_Tests-frameworks.sh */,
+				2FF6B5311DF0779073C3B348DD2BEFB4 /* Pods-RTUtilKit_Tests-resources.sh */,
+				4E5189A1CEE87C6DE1A8AFB8367FC6E0 /* Pods-RTUtilKit_Tests-umbrella.h */,
+				CD4BDFC3ECB1BC5C06F854E2C848C639 /* Pods-RTUtilKit_Tests.debug.xcconfig */,
+				F3B10247DB74F789F751CE99F77E4DE1 /* Pods-RTUtilKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-RTUtilKit_Tests";
+			path = "Target Support Files/Pods-RTUtilKit_Tests";
+			sourceTree = "<group>";
+		};
+		3F2FB9051A0415DFAC67A2A92299EB85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C92CA8376CB4E865CD03A462D25FEC /* RTUtilKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		423613EB4D027ACC4EFE246CCCA9FD9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0904C7B4F544632E9C4F15D42141AB08 /* Pods-RTUtilKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45188B915D9BD1B04958291D19B07C69 /* RTUtilKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6AE0044DA195C2DF1C2C646DCAA5D24 /* Classes */,
+			);
+			name = RTUtilKit;
+			path = RTUtilKit;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3F2FB9051A0415DFAC67A2A92299EB85 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AF37D6C5DE74B7D66ECDD5459147856E /* Products */,
+				423613EB4D027ACC4EFE246CCCA9FD9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85C92CA8376CB4E865CD03A462D25FEC /* RTUtilKit */ = {
+			isa = PBXGroup;
+			children = (
+				45188B915D9BD1B04958291D19B07C69 /* RTUtilKit */,
+				BA0DAE71AC396D12A020D572785B9E70 /* Support Files */,
+			);
+			name = RTUtilKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A6AE0044DA195C2DF1C2C646DCAA5D24 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7561F243B495D63668453BDB7C461FE1 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF37D6C5DE74B7D66ECDD5459147856E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A664648F1325B47F00D7B47AA672DE7 /* Pods_RTUtilKit_Tests.framework */,
+				62B24D4F600089DFA1CDC8672C895FE6 /* RTUtilKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0DAE71AC396D12A020D572785B9E70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA78209F93E1E5327C361A44AD683FC /* Info.plist */,
+				4975D250B053EBF5FEDDF4AFA3614CB3 /* RTUtilKit.modulemap */,
+				486365D5F134336F23006EFAC5C30D86 /* RTUtilKit.xcconfig */,
+				3A18FB697F8845FF50F06E55F8007E60 /* RTUtilKit-dummy.m */,
+				1BD5940E3D5318341FA06AF0E70C7D66 /* RTUtilKit-prefix.pch */,
+				432A79014D7DCDF434662A48C9855824 /* RTUtilKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RTUtilKit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		041789CE4836B95626D174523C626FE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FADCCDBFC02DB3E0825DC28613B49E /* Pods-RTUtilKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A160188B4214631EED9336A16A0536 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC738882D4DABC42C832AF25DEFE74A8 /* RTUtilKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F327CC7295095B0B86E83244F3EA565 /* RTUtilKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7A2D1FA14E2B8E4FB6F12593E8D390 /* Build configuration list for PBXNativeTarget "RTUtilKit" */;
+			buildPhases = (
+				4D8A3B91CE460C8CE614A0800F8661B0 /* Sources */,
+				CE4C4998BD0CCE830760B2167E3CAEDA /* Frameworks */,
+				60A160188B4214631EED9336A16A0536 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTUtilKit;
+			productName = RTUtilKit;
+			productReference = 62B24D4F600089DFA1CDC8672C895FE6 /* RTUtilKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAE4A4E4BED1E5DFB59434DEEA110259 /* Pods-RTUtilKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7570668ADF782A0BF289A9538EF6CE94 /* Build configuration list for PBXNativeTarget "Pods-RTUtilKit_Tests" */;
+			buildPhases = (
+				E1D063EFED60B72B8C8B6D5A4916E28D /* Sources */,
+				03DDF5BF10D9304FE69B63FDDCCC37CA /* Frameworks */,
+				041789CE4836B95626D174523C626FE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA02FEA3CE357414B7F877A449F92A8C /* PBXTargetDependency */,
+			);
+			name = "Pods-RTUtilKit_Tests";
+			productName = "Pods-RTUtilKit_Tests";
+			productReference = 6A664648F1325B47F00D7B47AA672DE7 /* Pods_RTUtilKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AF37D6C5DE74B7D66ECDD5459147856E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE4A4E4BED1E5DFB59434DEEA110259 /* Pods-RTUtilKit_Tests */,
+				7F327CC7295095B0B86E83244F3EA565 /* RTUtilKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8A3B91CE460C8CE614A0800F8661B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5913E4B13BB43DEDE958AD6E743754ED /* ReplaceMe.m in Sources */,
+				CB33AE99AEF11BF8B3B3E66B37AC772D /* RTUtilKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D063EFED60B72B8C8B6D5A4916E28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE8B16882811B0FA1D2E2303F4B956 /* Pods-RTUtilKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA02FEA3CE357414B7F877A449F92A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTUtilKit;
+			target = 7F327CC7295095B0B86E83244F3EA565 /* RTUtilKit */;
+			targetProxy = 00C0D4E0F9F70BB61CCCC00639212E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E71925B59ED432B260075FE22554B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4BDFC3ECB1BC5C06F854E2C848C639 /* Pods-RTUtilKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTUtilKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTUtilKit_Tests/Pods-RTUtilKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RTUtilKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7DF6EDB805E5B204BFDEEF0CED1C950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486365D5F134336F23006EFAC5C30D86 /* RTUtilKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTUtilKit/RTUtilKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTUtilKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTUtilKit/RTUtilKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RTUtilKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA5980133FBE3ABD39FA37A4074701BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B10247DB74F789F751CE99F77E4DE1 /* Pods-RTUtilKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTUtilKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTUtilKit_Tests/Pods-RTUtilKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RTUtilKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E380E9CC7B0F1CDD93FB2DCD7D290821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486365D5F134336F23006EFAC5C30D86 /* RTUtilKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTUtilKit/RTUtilKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTUtilKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTUtilKit/RTUtilKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RTUtilKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7570668ADF782A0BF289A9538EF6CE94 /* Build configuration list for PBXNativeTarget "Pods-RTUtilKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E71925B59ED432B260075FE22554B71 /* Debug */,
+				CA5980133FBE3ABD39FA37A4074701BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7A2D1FA14E2B8E4FB6F12593E8D390 /* Build configuration list for PBXNativeTarget "RTUtilKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DF6EDB805E5B204BFDEEF0CED1C950 /* Debug */,
+				E380E9CC7B0F1CDD93FB2DCD7D290821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

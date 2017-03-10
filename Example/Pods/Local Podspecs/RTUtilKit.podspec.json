@@ -1,0 +1,22 @@
+{
+  "name": "RTUtilKit",
+  "version": "0.1.0",
+  "summary": "A short description of RTUtilKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/keleyundou/RTUtilKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keleyundou": "1695390892@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/keleyundou/RTUtilKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RTUtilKit/Classes/**/*"
+}
